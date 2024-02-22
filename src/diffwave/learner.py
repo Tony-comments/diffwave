@@ -22,6 +22,9 @@ from torch.nn.parallel import DistributedDataParallel
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
+import sys
+sys.path.append('/home/ztl/codes/Diffwave/diffwave/src/')
+
 from diffwave.dataset import from_path, from_gtzan
 from diffwave.model import DiffWave
 from diffwave.params import AttrDict

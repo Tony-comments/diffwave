@@ -17,6 +17,8 @@ from argparse import ArgumentParser
 from torch.cuda import device_count
 from torch.multiprocessing import spawn
 
+import sys
+sys.path.append('/home/ztl/codes/Diffwave/diffwave/src/')
 from diffwave.learner import train, train_distributed
 from diffwave.params import params
 

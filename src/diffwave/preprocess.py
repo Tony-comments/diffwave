@@ -23,6 +23,9 @@ from concurrent.futures import ProcessPoolExecutor
 from glob import glob
 from tqdm import tqdm
 
+import sys
+sys.path.append('/home/ztl/codes/Diffwave/diffwave/src/')
+
 from diffwave.params import params
 
 
